@@ -23,3 +23,5 @@ Thumbs.db
 
 # Sensitive configuration files
 gradle.properties
+# Local gradle properties with credentials
+gradle-local.properties
