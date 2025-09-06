@@ -1,0 +1,14 @@
+# Java 21 configuration
+org.gradle.jvmargs=-Xmx2048m -XX:MaxMetaspaceSize=512m --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.desktop/java.awt.font=ALL-UNNAMED
+
+# Gradle configuration
+org.gradle.parallel=true
+org.gradle.caching=true
+org.gradle.configureondemand=true
+
+# GitHub Packages credentials (fill in your values)
+# gpr.user=your-github-username
+# gpr.key=your-github-token
+
+# Kotlin DSL
+kotlin.stdlib.default.dependency=false

@@ -20,3 +20,6 @@ Thumbs.db
 *.bak
 *.swp
 *~
+
+# Sensitive configuration files
+gradle.properties
