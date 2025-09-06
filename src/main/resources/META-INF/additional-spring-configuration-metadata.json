@@ -1,0 +1,22 @@
+{
+  "properties": [
+    {
+      "name": "crud-killer.enabled",
+      "type": "java.lang.Boolean",
+      "defaultValue": true,
+      "description": "Enable CRUD Killer framework auto-configuration"
+    },
+    {
+      "name": "crud-killer.validation.enabled",
+      "type": "java.lang.Boolean",
+      "defaultValue": true,
+      "description": "Enable automatic validation for entities"
+    },
+    {
+      "name": "crud-killer.logging.enabled",
+      "type": "java.lang.Boolean",
+      "defaultValue": false,
+      "description": "Enable debug logging for CRUD operations"
+    }
+  ]
+}

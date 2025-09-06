@@ -1,0 +1,33 @@
+crud-killer:
+  enabled: true
+  validation:
+    enabled: true
+  logging:
+    enabled: false
+
+spring:
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddl-auto: validate
+
+  native:
+    remove-unused-autoconfigurations: true
+
+logging:
+  level:
+    com.crudkiller: INFO
+    org.springframework.data: WARN
+    org.hibernate: WARN
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: when-authorized

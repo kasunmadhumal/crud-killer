@@ -1,0 +1,14 @@
+crud-killer:
+  enabled: true
+  logging:
+    enabled: true
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+logging:
+  level:
+    com.crudkiller: DEBUG

@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'crud-killer'
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven {
+            name = "Spring Releases"
+            url = uri("https://repo.spring.io/release")
+        }
+        maven {
+            name = "Spring Milestones"
+            url = uri("https://repo.spring.io/milestone")
+        }
+    }
+}
